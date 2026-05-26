@@ -1,0 +1,14 @@
+
+.produtos {
+  padding:32px 64px;
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+}
+
+.productList {
+  display: flex;
+  gap:16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

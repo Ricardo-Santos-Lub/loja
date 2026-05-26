@@ -1,0 +1,19 @@
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  border:1px solid #b6b6b6;
+  max-width:250px;
+  padding:16px;
+  border-radius:5px;
+}
+
+.productCard img {
+  object-fit: contain;
+}
+.price {
+  color:green;
+  font-weight: bold;
+  font-size:18px;
+}
