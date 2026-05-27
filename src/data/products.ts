@@ -3,7 +3,7 @@ import { Product } from "@/types/Product";
 export const products = [
     {
         id: 1,
-        "name":"Carretilha Bates Salty Hundo 50 - Alta Performance",
+        "name": "Carretilha Bates Salty Hundo 50 - Alta Performance",
         "price": "7389.99",
         "image": "https://repository.iscaecompanhia.com.br/produtos/12091/item/1842026_10_56_27_589.jpg"
     }, {
@@ -17,4 +17,4 @@ export const products = [
         price: 35.23,
         image: "https://repository.iscaecompanhia.com.br/produtos/2583/06062019_153014_3.jpg"
     }
-] as Product[];
+] as unknown as Product[];
